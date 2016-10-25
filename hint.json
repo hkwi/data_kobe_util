@@ -9,7 +9,7 @@
  },
  { "a":"Crawl",
   "index":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/jinkouugoki.html",
-  "re":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/suikeidata/.*\\.(xlsx?|pdf)"
+  "re":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/(suikei|ugoki)data/.*\\.(xlsx?|pdf)"
  },
  { "a":"Crawl",
   "index":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/juukijinkou.html",
@@ -26,10 +26,6 @@
  { "a":"Crawl",
   "index":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/keizai/index.html",
   "re":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/keizai/data/.*\\.(xlsx?|pdf)"
- },
- { "a":"Crawl",
-  "index":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/jinkouugoki.html",
-  "re":"http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/ugokidata/.*\\.(xlsx?|pdf)"
  },
  { "a":"Crawl",
   "index":"http://www.city.kobe.lg.jp/life/access/transport/subway/opendeta.html",
@@ -67,9 +63,6 @@
  },
  { "a":"Direct",
   "url":"http://www.city.kobe.lg.jp/information/opendata/img/sculpture_kobecity_20141128.csv"
- },
- { "a":"Direct",
-  "url":"http://www.city.kobe.lg.jp/culture/leisure/sculpture/"
  },
  { "a":"Direct",
   "url":"http://www.city.kobe.lg.jp/information/project/design/torikumi/marathon1.csv"
