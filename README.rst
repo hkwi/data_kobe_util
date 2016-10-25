@@ -1,0 +1,1 @@
+data_kobe_util is an utility for health checking https://data.city.kobe.lg.jp/
