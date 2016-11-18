@@ -43,6 +43,10 @@
   "index":"http://www.city.kobe.lg.jp/safety/fire/ambulance/matiqp.html",
   "re":"http://www.city.kobe.lg.jp/safety/fire/.*\\.xml"
  },
+ { "a":"Crawl",
+  "index":"http://www.city.kobe.lg.jp/child/school/lunch/kyusyoku/kondate_shiyousyokuhin.html",
+  "re":"http://www.city.kobe.lg.jp/child/school/lunch/kyusyoku/img/\\d+.*\\.pdf"
+ },
  { "a":"Html",
   "url":"http://www.city.kobe.lg.jp/ward/kuyakusho/higashinada/oshirase/kouhoushi/"
  },
