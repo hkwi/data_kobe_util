@@ -47,6 +47,22 @@
   "index":"http://www.city.kobe.lg.jp/child/school/lunch/kyusyoku/kondate_shiyousyokuhin.html",
   "re":"http://www.city.kobe.lg.jp/child/school/lunch/kyusyoku/img/\\d+.*\\.pdf"
  },
+ { "a":"Crawl",
+  "index":"http://www.city.kobe.lg.jp/information/about/financial/zaisei/index.html",
+  "re":"http://www.city.kobe.lg.jp/information/about/financial/zaisei/.*\\.xlsx?"
+ },
+ { "a":"Crawl",
+  "index":"http://www.city.kobe.lg.jp/information/about/financial/zaisei/index.html",
+  "re":"http://www.city.kobe.lg.jp/information/about/financial/zaisei/(img/)?(shityousonn-hikaku|saisyutu-hikaku|zaisei-itiran|keieihikakubunsekihyou)\\d+\\.pdf"
+ },
+ { "a":"Crawl",
+  "index":"http://www.city.kobe.lg.jp/child/school/lunch/kyusyoku/kondate_shiyousyokuhin.html",
+  "re":"http://www.city.kobe.lg.jp/child/school/lunch/kyusyoku/(img/)?[\\d\\-_]+\\.pdf"
+ },
+ { "a":"Crawl",
+  "index":"http://www.city.kobe.lg.jp/safety/fire/ambulance/matiqp.html",
+  "re":"http://www.city.kobe.lg.jp/safety/.*.xml"
+ },
  { "a":"Html",
   "url":"http://www.city.kobe.lg.jp/ward/kuyakusho/higashinada/oshirase/kouhoushi/"
  },
